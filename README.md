@@ -35,6 +35,7 @@ The Tasty Kitchens App project provides an opportunity to apply React concepts a
 
 <details>
 - Download dependencies by running `npm install`
+  
 - Start up the app using `npm start`
 </details>
 
