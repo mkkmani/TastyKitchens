@@ -1,0 +1,168 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 8px 40px 0px #07070714;
+}
+
+.login-name {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  /* align-self: flex-start; */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+  height: 64px;
+  margin-bottom: 14px;
+}
+
+.label {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #475569;
+}
+
+.input {
+  width: 312px;
+  height: 40px;
+  top: 24px;
+  border-radius: 2px;
+  background-color: #e2e8f0;
+  border: none;
+  outline: none;
+  padding-left: 8px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.error-text {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ef4444;
+  align-self: flex-start;
+  margin-top: 1px;
+  width: 273px;
+  height: 18px;
+}
+
+.login-button {
+  width: 312px;
+  height: 40px;
+  background: #f7931e;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 8px 16px 8px 16px;
+  color: #ffffff;
+}
+
+.logo-container {
+  display: none;
+}
+
+.lg-image-container {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .app-container {
+    flex-direction: row;
+  }
+
+  .main-image-container {
+    order: 1;
+    width: 50%;
+    height: 100%;
+  }
+
+  .main-input-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .website-logo {
+    width: 53px;
+    height: 43px;
+    padding: 2px;
+  }
+
+  .website-name {
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #f7931e;
+  }
+
+  .sm-image-container {
+    display: none;
+  }
+
+  .lg-image-container {
+    display: block;
+  }
+
+  .image {
+    width: 100%;
+    height: fit-content;
+  }
+}

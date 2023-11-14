@@ -1,0 +1,192 @@
+.cart-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-price {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  /* line-height: 24px; */
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffa412;
+}
+
+.cart-food-item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 6px;
+}
+
+.cart-food-item-container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+  align-items: center;
+  margin: 6px;
+  box-shadow: 5px 5px 10px 0px #ccc;
+  border-radius: 8px;
+  height: 150px;
+  width: 300px;
+}
+
+.cart-no-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.cart-empty-heading {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.empty-cart-desc {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #64748b;
+}
+
+.cart-home-button {
+  width: 93px;
+  height: 32px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 8px;
+  background: #f7931e;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.cart-footer {
+  margin-top: auto;
+}
+
+.dashed-line {
+  border-top: dashed;
+  width: 100%;
+  border: 1px solid #cbd2d9;
+  margin-top: 24px;
+}
+
+.total-cost-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 18px 6px 18px;
+}
+
+.total-cost-h1 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #3e4c59;
+}
+
+.total-amount {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #3e4c59;
+}
+
+.place-order-button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 6px 18px 6px 18px;
+}
+
+.place-order {
+  width: 99px;
+  height: 32px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #f7931e;
+}
+
+.payment-container {
+  height: 100vh;
+}
+
+.payment-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.check-circle {
+  background-color: #ffffff;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: #63f022;
+  border: none;
+}
+
+.payment-h1 {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.payment-desc {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #64748b;
+}
+
+.goto-home-btn {
+  width: 132px;
+  height: 32px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 8px;
+  background: #f7931e;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+}
+
+.cart-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

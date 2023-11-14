@@ -1,0 +1,80 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img-div {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.input-edit-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.name-display-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.profile-input {
+  border: none;
+  outline: none;
+  background-color: #f0f0f0;
+  padding: 4px;
+  margin-top: 16px;
+}
+
+.icon {
+  margin-top: 3px;
+  margin-left: 30px;
+  color: #5e5e61;
+}
+
+.check-icon {
+  color: #fff;
+  background-color: #61c944;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.profile-name {
+  color: #183b56;
+}
+
+.phone-mail {
+  color: #64748b;
+}
+
+.personal-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-end;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,38 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.h1-not-found {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1e293b;
+}
+
+.not-found-desc {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #475569;
+}
+
+.nf-button {
+  width: 98px;
+  height: 31px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 8px;
+  background: #f7931e;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
