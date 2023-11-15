@@ -31,7 +31,7 @@ The Tasty Kitchens App project provides an opportunity to apply React concepts a
    cd tasty-kitchens-app
 
 ### Preview of project
-  -A preview of the project can be viewed <a href='https://randomthings.ccbp.tech' target='_blank'>here</a>
+  A preview of the project can be viewed <a href='https://randomthings.ccbp.tech' target="_blank">here</a>
 
     Username: mani
     password: Mani@123
