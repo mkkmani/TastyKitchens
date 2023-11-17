@@ -30,7 +30,7 @@ The Tasty Kitchens App project provides an opportunity to apply React concepts a
    git clone https://github.com/mkkmani/TastyKitchens.git
    cd tasty-kitchens-app
 
-### Preview of project
+## Preview of project
   A preview of the project can be viewed <a href='https://randomthings.ccbp.tech' target="_blank">here</a>
 
     Username: mani
