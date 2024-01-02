@@ -44,7 +44,7 @@ class Header extends Component {
               <Link to="/profile" className="link-item">
                 <img
                   className="header-profile"
-                  src="https://res.cloudinary.com/dj1bucjya/image/upload/v1699809652/profile_movdab.jpg"
+                  src="https://res.cloudinary.com/dj1bucjya/image/upload/c_crop,ar_1:1/v1704162352/WhatsApp_Image_2024-01-01_at_00.08.40_6e8bfbd9_pr6pcl.jpg"
                   alt="profile"
                 />
               </Link>
@@ -83,7 +83,7 @@ class Header extends Component {
               <Link to="/profile" className="link-item">
                 <img
                   className="header-profile"
-                  src="https://res.cloudinary.com/dj1bucjya/image/upload/v1699809652/profile_movdab.jpg"
+                  src="https://res.cloudinary.com/dj1bucjya/image/upload/c_crop,ar_1:1/v1704162352/WhatsApp_Image_2024-01-01_at_00.08.40_6e8bfbd9_pr6pcl.jpg"
                   alt="profile"
                 />
               </Link>

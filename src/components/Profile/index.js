@@ -7,7 +7,7 @@ import './index.css'
 class Profile extends Component {
   state = {
     profileImage:
-      'https://res.cloudinary.com/dj1bucjya/image/upload/v1699809652/profile_movdab.jpg',
+      'https://res.cloudinary.com/dj1bucjya/image/upload/c_crop,ar_1:1/v1704162352/WhatsApp_Image_2024-01-01_at_00.08.40_6e8bfbd9_pr6pcl.jpg',
     name: 'Manikanta',
     phone: '8985123346',
     email: 'manikantaketha1@gmail.com',
