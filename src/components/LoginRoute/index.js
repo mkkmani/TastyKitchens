@@ -40,8 +40,7 @@ class LoginRoute extends Component {
       body: JSON.stringify(userDetails),
     }
 
-    if (showUsername === 'mani' && showPassword === 'Mani@123') {
-      const response = await fetch(api, options)
+    const response = await fetch(api, options)
       const data = await response.json()
 
       if (response.ok) {
@@ -50,20 +49,31 @@ class LoginRoute extends Component {
       } else {
         this.setState({errorMsg: 'Invalid Credentials'})
       }
-    } else {
-      let errorMsg = ''
 
-      if (showUsername !== 'mani' && showPassword !== 'Mani@123') {
-        errorMsg = 'Invalid Username and Password'
-      } else if (showUsername !== 'mani') {
-        errorMsg = 'Invalid Username'
-      } else if (showPassword !== 'Mani@123') {
-        errorMsg = 'Invalid Password'
-      } else {
-        errorMsg = 'Invalid Login Details'
-      }
-      this.setState({errorMsg, showError: true})
-    }
+    // if (showUsername === 'mani' && showPassword === 'Mani@123') {
+    //   const response = await fetch(api, options)
+    //   const data = await response.json()
+
+    //   // if (response.ok) {
+    //   //   Cookies.set('jwt_token', data.jwt_token, {expires: 30})
+    //   //   history.replace('/')
+    //   // } else {
+    //   //   this.setState({errorMsg: 'Invalid Credentials'})
+    //   // }
+    // } else {
+    //   let errorMsg = ''
+
+    //   // if (showUsername !== 'mani' && showPassword !== 'Mani@123') {
+    //   //   errorMsg = 'Invalid Username and Password'
+    //   // } else if (showUsername !== 'mani') {
+    //   //   errorMsg = 'Invalid Username'
+    //   // } else if (showPassword !== 'Mani@123') {
+    //   //   errorMsg = 'Invalid Password'
+    //   // } else {
+    //   //   errorMsg = 'Invalid Login Details'
+    //   // }
+    //   this.setState({errorMsg, showError: true})
+    // }
   }
 
   renderLoginPage = () => {
